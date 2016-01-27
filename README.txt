@@ -1,6 +1,5 @@
 
-TITLE: 
-Crew - Responsive Free HTML5 template
+Project for FYDP website. Details of theme below:
 
 AUTHOR:
 DESIGNED & DEVELOPED by FREEHTML5.co
