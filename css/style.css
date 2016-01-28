@@ -152,6 +152,11 @@ h1, h2, h3, h4, h5, h6 {
   background: none;
   color: #fff;
 }
+.myElement { 
+  /* Generated with http://gradient.quasi.ink */
+  background-size: cover;
+  background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAkAAAAJCAYAAADgkQYQAAAAzklEQVQYVyWQO04DQRAF6/UMs2tsMEJIdkxExAkQNyAg4BjEXNtCLLDGMw/NOurfK6nU0su7AXz8hVzQZovrF2FoDRjXSG8f9ucBWkWbaxyCeTrPMeD1gHh6NUowH2FcwfaWmCbaaYZyiXJCPD4bG6IggzFLU0FjwfTQ/YPJA0oFVdFq7YognWsSYr+3ouAIaP0QQCNFUBsoAunuxnFROtpdsTrcg939DznQsLuypIVI3anC7EqOxKlV8vKW3eCyGunyP9M3hMipYJsO9/0/v6BS9e/gf9AAAAAASUVORK5CYII=");
+}
 #fh5co-header #navbar li.active a span:before {
   visibility: visible;
   -webkit-transform: scaleX(1);
@@ -160,7 +165,7 @@ h1, h2, h3, h4, h5, h6 {
 #fh5co-header .navbar-brand {
   float: left;
   display: block;
-  font-size: 30px;
+  font-size: 50px;
   font-weight: 700;
   padding-left: 0;
   color: #fff;
@@ -975,7 +980,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .owl-carousel-fullwidth .item, .owl-carousel-fullwidth .fh5co-owl-text-wrap {
-  height: 800px;
+  height: 350px;
   display: table;
   width: 100%;
 }
