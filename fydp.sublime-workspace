@@ -7,14 +7,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "index.html",
-			"settings":
-			{
-				"buffer_size": 30267,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -81,11 +73,15 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/pulsar/GoogleDrive/4B/fydp_site/crew",
-		"/Users/pulsar/GoogleDrive/4B/fydp_site/crew/images"
+		"/Users/pulsar/GoogleDrive/4B/talonco.github.io"
 	],
 	"file_history":
 	[
+		"/Users/pulsar/GoogleDrive/4B/talonco.github.io/css/style.css",
+		"/Users/pulsar/GoogleDrive/4B/talonco.github.io/index.html",
+		"/Users/pulsar/GoogleDrive/4B/fydp_site/crew/index.html",
+		"/Users/pulsar/GoogleDrive/4B/fydp_site/crew/fydp.sublime-project",
+		"/Users/pulsar/GoogleDrive/github/learn-r/stats_tut.R",
 		"/Users/pulsar/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
 		"/Users/pulsar/GoogleDrive/4A/wrkreport/uw-ethesis.tex",
 		"/Users/pulsar/GoogleDrive/4A/wrkreport/uw-ethesis-frontpgs.tex",
@@ -98,7 +94,7 @@
 	],
 	"find":
 	{
-		"height": 27.0
+		"height": 35.0
 	},
 	"find_in_files":
 	{
@@ -113,6 +109,11 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"navbar-brand",
+			"fullwidth",
+			"Quet",
+			"quetz",
+			"pch",
 			"tcp",
 			".\\cite",
 			"Entropy",
@@ -144,44 +145,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "index.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 30267,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								12821,
-								12821
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 7005.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"file": "images/person4.jpg",
-					"semi_transient": true,
-					"stack_index": 1,
-					"type": "image"
-				}
 			]
 		}
 	],
@@ -237,6 +202,14 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"inde",
+				"index.html"
+			],
+			[
+				"sty",
+				"css/style.css"
+			],
 			[
 				".log",
 				"uw-ethesis.log"
