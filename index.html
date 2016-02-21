@@ -91,9 +91,9 @@
 	</header>
 
 	<div id="slider" data-section="home">
-		<div class="owl-carousel owl-carousel-fullwidth">
+		<div class="owl-carousel owl-carousel-fullwidth" style="background: url(images/slide_1.jpg); background-size: cover;">
 		    <!-- <div class="item" style="background: #38569f;"> -->
-		    <div class="item" style="background-image:url(images/slide_5.jpg)">
+		    <div class="item" >
 		    	<div class="overlay"></div>
 		    	<div class="container" style="position: relative;">
 		    		<div class="row">
@@ -113,7 +113,7 @@
 		    	</div>
 		    </div>
 		    <!-- <div class="item" style="background: #352f44;"> -->
-		    <div class="item" style="background-image:url(images/slide_5.jpg)">
+		    <div class="item" >
 			    <div class="overlay"></div>
 		    	<div class="container" style="position: relative;">
 		    		<div class="row">
@@ -133,7 +133,7 @@
 		    		</div>
 		    	</div>
 		    </div>
-		    <div class="item" style="background-image:url(images/slide_5.jpg)">
+		    <div class="item" >
 		    	<div class="overlay"></div>
 		    	<div class="container" style="position: relative;">
 		    		<div class="row">
@@ -152,37 +152,22 @@
 
 		</div>
 	</div>
-	
-	<div id="fh5co-about-us" data-section="about">
+
+	<div id="fhco-about-us" data-section="about">
 		<div class="container">
 			<div class="row row-bottom-padded-lg" id="about-us">
 				<div class="col-md-12 section-heading text-center">
-					<h2 class="to-animate">About Us</h2>
+					<h2 class="">About Us</h2>
 					<div class="row">
-						<div class="col-md-8 col-md-offset-2 to-animate">
-							<!-- <h3>Talon is a future delivery system designed to speed up, reduce costs, and safely get packages to customers</h3> -->
-							<h3> Home delivery is a competitive market that is becoming increasingly popular. Delivery trucks are
-
-							  scattered within almost every region of the world, but with the rapidly increasing demand the only 
-
-							  current option is to put more vehicles and people on the roads.
-							  <br></br><br>
+						<div class="col-md-8 col-md-offset-2">
+							<h3 id="aboutus"> </h3>
+							<h3>
 							  <ul>
-							    <li>Talon is a future delivery system 
-
-							      designed to speed up, reduce costs, and safely get packages to customers.</li>  
-							    <li>As opposed to flying from a 
-
-							      warehouse for each delivery, Talon can make short flights and deliver a package from a pre-existing 
-
-							      delivery trucks.</li>
+							    <li id="aboutus_2"></li>  
+							    <li id="aboutus_3"></li>
 							  </ul> 
 							</h3>
-							<h3>
-							  Launching and returning to the vehicle autonomously, the end goal of our project is to 
-
-							  improve the overall efficiency and autonomy of a delivery route.
-							</h3>
+							<h3 id="aboutus_4"></h3>
 						</div>
 					</div>
 				</div>
@@ -312,7 +297,35 @@
 	<script src="js/owl.carousel.min.js"></script>
 	<!-- Theater for typing effects -->
 	<script src='http://cdn.jsdelivr.net/theaterjs/latest/theater.min.js'></script>
+	<script>
+		var theater = theaterJS({minSpeed: 1, maxSpeed: 2});
+		theater
+		    .on('type:start, erase:start', function () {
+		      // add a class to actor's dom element when he starts typing/erasing
+		      var actor = theater.getCurrentActor()
+		      actor.$element.classList.add('is-typing')
+		    })
+		    .on('type:end, erase:end', function () {
+		      // and then remove it when he's done
+		      var actor = theater.getCurrentActor()
+		      actor.$element.classList.remove('is-typing')
+		    })
 
+		theater
+		    .addActor('aboutus')
+		    .addActor('aboutus_2')
+		    .addActor('aboutus_3')
+		    .addActor('aboutus_4')
+
+		theater
+		    .addScene('aboutus:Home delivery is a competitive market that is becoming increasingly popular. Delivery trucks are scattered within almost every region of the world, but with the rapidly increasing demand the only current option is to put more vehicles and people on the roads.')
+		    .addScene('aboutus_2:Talon is a future delivery system designed to speed up, reduce costs, and safely get packages to customers.')
+		    .addScene('aboutus_3: As opposed to flying from a warehouse for each delivery, Talon can make short flights and deliver a package from a pre-existing delivery trucks.')
+		    .addScene('aboutus_4: Launching and returning to the vehicle autonomously, the end goal of our project is to improve the overall efficiency and autonomy of a delivery route.')
+		    // .addScene('aboutus:I am', 200, '.', 200, '.', 200, '. ')
+		    // .addScene('Your father!')
+		    // .addScene(theater.replay)
+	</script>
 	<!-- Main JS (Do not remove) -->
 	<script src="js/main.js"></script>
 

@@ -986,7 +986,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 @media screen and (max-width: 768px) {
   .owl-carousel-fullwidth .item, .owl-carousel-fullwidth .fh5co-owl-text-wrap {
-    height: inherit;
+    height: 500px;
     padding: 5em 0;
   }
 }
